@@ -6,4 +6,7 @@ from sklearn.metrics import accuracy_score
 from sklearn import tree
 
 #reading the CSV file
-#locationData = pd.read_csv()
+answersData = pd.read_csv(r"C:\Users\fefer\Downloads\hackgtAnswers.csv")
+
+# Preview first 5 rows
+answersData.head()
