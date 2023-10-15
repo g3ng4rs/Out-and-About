@@ -30,13 +30,17 @@
 * Designed a visually appealing and user-friendly user interface (UI) that enhances the overall user experience 😊📄
 
 ## 💗 What we learned
-* Significantly increased our familiarity with various software programs and tools 🔨⛏️
-* Gained insights into the specific services that people need but often struggle to find easily through standard web searches 🌃☀️
+* Significantly increased our familiarity with various software programs and tools and working with a new tech stack 🔨⛏️
+* Learned about the specific services that people need but often struggle to find easily through standard web searches 🌃☀️
 * Developed a deeper appreciation for the importance of accessibility in online platforms and the challenges of finding public records of accessibility, which sometimes don't exist 🏫🎓
 
 ## ✏️ What's next for Out and About
-* Improve the UI and fix edge case bugs
+* Improve the UI and fix edge case bugs 🤩🐛
 * Plan to expand beyond the exclusive focus on the Atlanta area and cover all of Georgia 🍑🏛️
 * Consider the possibility of further extending the service to cover the entire United States 🗿🗽
 * Continuously collect and incorporate user feedback to improve the website's functionality and user experience 👥😸
 * Explore potential collaborations with local organizations, government bodies, and accessibility advocacy groups to enhance the platform's services and reach 👤🌎
+
+<img width="1274" alt="Screenshot 2023-10-15 at 8 21 36 AM" src="https://github.com/g3ng4rs/Out-and-About/assets/114116509/50d9f620-7a8e-4ab1-bc0b-97f0dfbb22bc">
+
+
