@@ -35,19 +35,19 @@ function myFunction() {
     var user = [isSingleOccupantBathroomsChecked, isFamilyBathroomsChecked, isWheelchairAccessibilityChecked, isSignLanguageInterpretersChecked, isBrailleAndLargePrintChecked, isCommunicationAssistanceChecked];
     // You can now use these variables as needed
     // For example, to check the status of a checkbox:
-    var clinics = [[0, 1, 1, 1, 1, 1], [0, 1, 1, 1, 0, 0]];
-    var therapy = [[0,0,1,1,1, 0],[0,0,0,0,1, 1],[1,1,1,0,1, 1]];
-    var psychiatry = [[0,1,0,0,1, 1], [1, 0, 1, 1, 0, 0]];
-    var gender = [[1,1,0,0,1, 1], [0,0,0,1,0, 0], [0,1,0,1,1, 0]]; 
+    var clinics = [[0, 1, 1, 1, 1, 1], [0, 1, 1, 1, 0, 0]]; //1
+    var therapy = [[0,0,1,1,1, 0],[0,0,0,0,1, 1],[1,1,1,0,1, 1]]; //3
+    var psychiatry = [[0,1,0,0,1, 1], [1, 0, 1, 1, 0, 0]]; //6
+    var gender = [[1,1,0,0,1, 1], [0,0,0,1,0, 0], [0,1,0,1,1, 0]]; //8
 
-    var center = [[1, 1, 0, 0, 1, 0], [0, 1, 1, 1, 0, 1], [1, 0, 0, 1, 0, 1]];
-    var famPlanning = [[1, 0, 1, 0, 1, 0], [0, 1, 0, 1, 1, 1]];
-    var youth = [[0, 1, 0, 1, 1, 1], [1, 1, 1, 1, 0, 0], [0, 0, 0, 0, 1, 1]];
-    var mental = [[1, 1, 0, 1, 0, 1], [1, 0, 1, 0, 1, 0]];
+    var center = [[1, 1, 0, 0, 1, 0], [0, 1, 1, 1, 0, 1], [1, 0, 0, 1, 0, 1]]; //11
+    var famPlanning = [[1, 0, 1, 0, 1, 0], [0, 1, 0, 1, 1, 1]]; //14
+    var youth = [[0, 1, 0, 1, 1, 1], [1, 1, 1, 1, 0, 0], [0, 0, 0, 0, 1, 1]]; //16
+    var mental = [[1, 1, 0, 1, 0, 1], [1, 0, 1, 0, 1, 0]]; //19
 
-    var legal = [[1, 0, 1, 1, 0, 1],[0, 0, 1, 0, 1, 0]];
-    var recreational = [[1, 0, 1, 0, 1, 1], [1, 1, 1, 0, 0, 1], [1, 0, 1, 1, 0, 0]];
-    var home = [[0, 1, 0, 1, 1, 0], [1, 0, 1, 1, 0, 0], [1, 0, 0, 0, 1, 0]];
+    var legal = [[1, 0, 1, 1, 0, 1],[0, 0, 1, 0, 1, 0]]; //21
+    var recreational = [[1, 0, 1, 0, 1, 1], [1, 1, 1, 0, 0, 1], [1, 0, 1, 1, 0, 0]]; //23
+    var home = [[0, 1, 0, 1, 1, 0], [1, 0, 1, 1, 0, 0], [1, 0, 0, 0, 1, 0]]; //26
 
     var compArray; 
 
@@ -56,36 +56,47 @@ function myFunction() {
     if (isClinicsChecked){
         compArray = clinics;   
         console.log("Clinics");
+        answer = 1;
     } else if (isTherapyChecked) {
         compArray = therapy;
+        answer = 3;
         console.log("Therapy");
     } else if (isPsychiatryChecked) {
         compArray = psychiatry;
         console.log("Psychiatry");
+        answer = 6;
     } else if (isGenderAffirmingCareChecked) {
         compArray = gender;
         console.log("Gender");
+        answer = 8; 
     } else if (isLGBTQIACentersChecked) {
         compArray = center;
         console.log("Center");
+        answer = 11;
     } else if (isLGBTQIAFamilyPlanningChecked) {
         compArray = famPlanning;
         console.log("Family");
+        answer = 14; 
     } else if (isLGBTQIAYouthServicesChecked) {
         compArray = youth;
         console.log("Youth");
+        answer = 16;
     } else if (isMentalHealthSupportGroupsChecked) {
         compArray = mental;
         console.log("Mental");
+        answer = 19;
     } else if (isLegalAndAdvocacyResourcesChecked) {
         compArray = legal;
         console.log("Legal");
+        answer = 21;
     } else if (isRecreationalSafeSpacesChecked) {
         compArray = recreational;
         console.log("Rec");
+        answer = 23; 
     } else {
         compArray = home;
         console.log("Home");
+        answer = 26; 
     }
 
     var num = -1;
@@ -107,7 +118,96 @@ function myFunction() {
             
 
         }
-        answer = num; 
+        answer += num; 
         console.log(answer);
+
+        document.getElementById("form").style.display = "none";
+
+        switch(answer){
+            case 1:
+                document.getElementById("1").style.display = "inline-block";
+                break; 
+            case 2:
+                document.getElementById("2").style.display = "inline-block";
+                break; 
+            case 3:
+                document.getElementById("3").style.display = "inline-block";
+                break; 
+            case 4:
+                document.getElementById("4").style.display = "inline-block";
+                break; 
+            case 5:
+                document.getElementById("5").style.display = "inline-block";
+                break; 
+            case 6:
+                document.getElementById("6").style.display = "inline-block";
+                break; 
+            case 7:
+                document.getElementById("7").style.display = "inline-block";
+                break; 
+            case 8:
+                document.getElementById("8").style.display = "inline-block";
+                break; 
+            case 9:
+                document.getElementById("9").style.display = "inline-block";
+                break; 
+            case 10:
+                document.getElementById("10").style.display = "inline-block";
+                break; 
+            case 11:
+                document.getElementById("11").style.display = "inline-block";
+                break; 
+            case 12:
+                document.getElementById("12").style.display = "inline-block";
+                break; 
+            case 13:
+                document.getElementById("13").style.display = "inline-block";
+                break; 
+            case 14:
+                document.getElementById("14").style.display = "inline-block";
+                break; 
+            case 15:
+                document.getElementById("15").style.display = "inline-block";
+                break; 
+            case 16:
+                document.getElementById("16").style.display = "inline-block";
+                break; 
+            case 17:
+                document.getElementById("17").style.display = "inline-block";
+                break; 
+            case 18:
+                document.getElementById("18").style.display = "inline-block";
+                break; 
+            case 19:
+                document.getElementById("19").style.display = "inline-block";
+                break; 
+            case 20:
+                document.getElementById("20").style.display = "inline-block";
+                break; 
+            case 21:
+                document.getElementById("21").style.display = "inline-block";
+                break; 
+            case 22:
+                document.getElementById("22").style.display = "inline-block";
+                break; 
+            case 23:
+                document.getElementById("23").style.display = "inline-block";
+                break; 
+            case 24:
+                document.getElementById("24").style.display = "inline-block";
+                break; 
+            case 25:
+                document.getElementById("25").style.display = "inline-block";
+                break; 
+            case 26:
+                document.getElementById("26").style.display = "inline-block";
+                break; 
+            case 27:
+                document.getElementById("27").style.display = "inline-block";
+                break; 
+            case 28:
+                document.getElementById("28").style.display = "inline-block";
+                break; 
+        }
                 
   }
