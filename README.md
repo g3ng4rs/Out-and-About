@@ -1,5 +1,5 @@
 ## ⭐ Inspiration !
-
+### *Our inspiration was the lack or accesibility 
 
 ## ⚙️ What it does
 
