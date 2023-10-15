@@ -1,4 +1,7 @@
 .display {
     display: none;
-    color: blue; 
+}
+
+.text {
+    display: none;
 }

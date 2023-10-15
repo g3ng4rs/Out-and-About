@@ -126,9 +126,11 @@ function myFunction() {
         switch(answer){
             case 1:
                 document.getElementById("1").style.display = "inline-block";
+                document.getElementById("1-title").style.display = "inline-block";
                 break; 
             case 2:
                 document.getElementById("2").style.display = "inline-block";
+                document.getElementById("2-title").style.display = "inline-block";
                 break; 
             case 3:
                 document.getElementById("3").style.display = "inline-block";
