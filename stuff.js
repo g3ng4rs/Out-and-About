@@ -134,81 +134,107 @@ function myFunction() {
                 break; 
             case 3:
                 document.getElementById("3").style.display = "inline-block";
+                document.getElementById("3-title").style.display = "inline-block";
                 break; 
             case 4:
                 document.getElementById("4").style.display = "inline-block";
+                document.getElementById("4-title").style.display = "inline-block";
                 break; 
             case 5:
                 document.getElementById("5").style.display = "inline-block";
+                document.getElementById("5-title").style.display = "inline-block";
                 break; 
             case 6:
                 document.getElementById("6").style.display = "inline-block";
+                document.getElementById("6-title").style.display = "inline-block";
                 break; 
             case 7:
                 document.getElementById("7").style.display = "inline-block";
+                document.getElementById("7-title").style.display = "inline-block";
                 break; 
             case 8:
                 document.getElementById("8").style.display = "inline-block";
+                document.getElementById("8-title").style.display = "inline-block";
                 break; 
             case 9:
                 document.getElementById("9").style.display = "inline-block";
+                document.getElementById("9-title").style.display = "inline-block";
                 break; 
             case 10:
                 document.getElementById("10").style.display = "inline-block";
+                document.getElementById("10-title").style.display = "inline-block";
                 break; 
             case 11:
                 document.getElementById("11").style.display = "inline-block";
+                document.getElementById("11-title").style.display = "inline-block";
                 break; 
             case 12:
                 document.getElementById("12").style.display = "inline-block";
+                document.getElementById("12-title").style.display = "inline-block";
                 break; 
             case 13:
                 document.getElementById("13").style.display = "inline-block";
+                document.getElementById("13-title").style.display = "inline-block";
                 break; 
             case 14:
                 document.getElementById("14").style.display = "inline-block";
+                document.getElementById("14-title").style.display = "inline-block";
                 break; 
             case 15:
                 document.getElementById("15").style.display = "inline-block";
+                document.getElementById("15-title").style.display = "inline-block";
                 break; 
             case 16:
                 document.getElementById("16").style.display = "inline-block";
+                document.getElementById("16-title").style.display = "inline-block";
                 break; 
             case 17:
                 document.getElementById("17").style.display = "inline-block";
+                document.getElementById("17-title").style.display = "inline-block";
                 break; 
             case 18:
                 document.getElementById("18").style.display = "inline-block";
+                document.getElementById("18-title").style.display = "inline-block";
                 break; 
             case 19:
                 document.getElementById("19").style.display = "inline-block";
+                document.getElementById("19-title").style.display = "inline-block";
                 break; 
             case 20:
                 document.getElementById("20").style.display = "inline-block";
+                document.getElementById("20-title").style.display = "inline-block";
                 break; 
             case 21:
                 document.getElementById("21").style.display = "inline-block";
+                document.getElementById("21-title").style.display = "inline-block";
                 break; 
             case 22:
                 document.getElementById("22").style.display = "inline-block";
+                document.getElementById("22-title").style.display = "inline-block";
                 break; 
             case 23:
                 document.getElementById("23").style.display = "inline-block";
+                document.getElementById("21-title").style.display = "inline-block";
                 break; 
             case 24:
                 document.getElementById("24").style.display = "inline-block";
+                document.getElementById("24-title").style.display = "inline-block";
                 break; 
             case 25:
                 document.getElementById("25").style.display = "inline-block";
+                document.getElementById("25-title").style.display = "inline-block";
                 break; 
             case 26:
                 document.getElementById("26").style.display = "inline-block";
+                document.getElementById("25-title").style.display = "inline-block";
                 break; 
             case 27:
                 document.getElementById("27").style.display = "inline-block";
+                document.getElementById("27-title").style.display = "inline-block";
                 break; 
             case 28:
                 document.getElementById("28").style.display = "inline-block";
+                document.getElementById("28-title").style.display = "inline-block";
                 break; 
         }
                 
