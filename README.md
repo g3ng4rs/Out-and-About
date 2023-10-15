@@ -1,7 +1,7 @@
 ## ⭐ Inspiration !
 * Addressing the lack of accessibility in various locations 💼🏙️
-  - Numerous historic buildings lack accessible bathrooms and proper means to access higher floors, even when essential classes for students with disabilities are held there
-  - Underserved and LGBTQIA+ communities struggle to access support and health resources as these systems that claim to serve everyone often neglect these very communities
+  - Numerous historic buildings lack accessible bathrooms and proper means to access higher floors, even when essential classes for students with disabilities are held there 🙁
+  - Underserved and LGBTQIA+ communities struggle to access support and health resources as these systems that claim to serve everyone often neglect these very communities 🫥
 * Creating an easy-to-access map for users to find accommodations that meet their specific requirements
 * Prioritizing inclusive features and accessibility options, including health services, community and support centers, and etc. 🏥🫂
 * Offering a diverse range of places and accommodations based on user requests and needs ♿🩼
