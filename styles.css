@@ -1,7 +1,32 @@
+* {
+    font-family: 'Jua';
+}
+
+.jumbotron{
+    background-color: #DBAEFF;
+    color: #C6FFE3;
+
+}
+
+.desc {
+    color: #5B00A4;
+}
+.input {
+    font-family: 'Valera-Round';
+    background-color: beige;
+    border-color: black;
+    border-width: 5px;
+    width: 100%;
+    margin-bottom: 5px;
+    padding-left: 5px;
+}
 .display {
     display: none;
 }
 
+.remainder {
+    background-color: #C6FFE3;
+}
 .text {
     display: none;
 }
