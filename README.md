@@ -7,7 +7,7 @@
 
 ## 🤔 Challenges we ran into
 
-## 😸 Accomplishments that we're proud of
+## 🥇 Accomplishments that we're proud of
 
 ## 💗 What we learned
 
