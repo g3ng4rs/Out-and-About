@@ -10,6 +10,8 @@
 * Allows users to specify their desired services and resources 🔍🧐
 * Users can select multiple services via checkboxes for personalized search ☑️🧑
 * Provides a drop-down menu for users to choose locations with their selected services 📌🗺️
+
+![ezgif-4-ebb765f891](https://github.com/g3ng4rs/Out-and-About/assets/114116509/e97018ae-8ab7-41ea-b491-c335916f6d70)
   
 ## ⌨️ How we built it
 * The project's design was created using Figma 🤩✨
