@@ -5,8 +5,40 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Out and About</title>
     <script src="stuff.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 </head>
 <body>
+    <div class="jumbotron text-center">
+        <h1>Title</h1>
+        <p>Resize this responsive page to see the effect!</p> 
+      </div>
+        
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-4">
+            <div class = "container">
+                1st section
+            </div>
+            <div class = "container">
+                2nd 
+            </div>
+          </div>
+          <div class="col-sm-4">
+            Accessibility Services
+          </div>
+          <div class="col-sm-4">
+            <div class = "container">
+                Community and Support Centers
+            </div>
+            <div class = "container">
+                Other resources 
+            </div>
+          </div>
+        </div>
+      </div>
+      
 
     Select something:
     <form>
@@ -34,8 +66,11 @@
         <label for="mental-health-support-groups">Mental Health Support Groups</label>
         <input type="checkbox" id="mental-health-support-groups" name="services" value="mental-health-support-groups"><br>
 
-        <label for="single-occupant-bathrooms">Single Occupant/Family/Gender Inclusive Bathrooms</label>
+        <label for="single-occupant-bathrooms">Single Occupant/Gender Inclusive Bathrooms</label>
         <input type="checkbox" id="single-occupant-bathrooms" name="services" value="single-occupant-bathrooms"><br>
+
+        <label for="family-bathrooms">Family Bathrooms</label>
+        <input type="checkbox" id="family-bathrooms" name="services" value="family-bathrooms"><br>
 
         <label for="wheelchair-accessibility">Wheelchair Accessibility</label>
         <input type="checkbox" id="wheelchair-accessibility" name="services" value="wheelchair-accessibility"><br>
