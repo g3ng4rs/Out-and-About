@@ -35,6 +35,7 @@
 * Developed a deeper appreciation for the importance of accessibility in online platforms and the challenges of finding public records of accessibility, which sometimes don't exist 🏫🎓
 
 ## ✏️ What's next for Out and About
+* Improve the UI and fix edge case bugs
 * Plan to expand beyond the exclusive focus on the Atlanta area and cover all of Georgia 🍑🏛️
 * Consider the possibility of further extending the service to cover the entire United States 🗿🗽
 * Continuously collect and incorporate user feedback to improve the website's functionality and user experience 👥😸
